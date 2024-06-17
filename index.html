@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey_Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head">
+        <h1 id="hd">CapacityBay Survey Form</h1>
+        <h2 id="subhd">Thank you for taking the time to help us improve the platform</h2>
+    </div>
+    <form>
+            <div class="cont1">
+                <label for="name">Name</label> <br><br>
+                <input type="name" name="name" placeholder="Enter your name" class="box"> <br><br>
+                <label for="email">Email</label> <br><br>
+                <input type="email" name="email" placeholder="Enter your email" class="box"> <br><br>
+                <label for="age">Age(Optional)</label> <br><br>
+                <input type="age" name="age" placeholder="Enter your age" class="box"> <br><br>
+                <label>Which option best describes your current role?</label> <br><br>
+            
+                <div class="opt">
+                    <select>
+                        <option name="Select current role">Select current role</option>
+                        <option value="Student">Student</option>
+                        <option value="Full Time Job">Full Time Job</option>
+                        <option value="Full Time Learner">Full Time Learner</option>
+                        <option value="Prefer Not to say">Prefer Not to say</option>
+                        <option value="Other">Other</option>
+                    </select>
+                    <br><br>
+                    <label for="hd1">Would you recommend CapacityBay to a friend?</label> <br><br>
+                    <input type="radio" name="Def" class="mnt">Definitely <br><br>
+                    <input type="radio" name="Myb" class="mnt">Maybe <br><br>
+                    <input type="radio" name="Nts" class="mnt">Not sure <br><br>
+                    <br>
+                <div class="opt1">
+                    <label for="hd2">What is your favorite feature of CapacityBay?</label> <br><br>
+                    <select>
+                        <option name="Select an option">Select an option</option>
+                        <option value="Challenges">Challenges</option>
+                        <option value="Projects">Projects</option>
+                        <option value="Community">Community</option>
+                        <option value="Open Source">Open Source</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <br>
+                <label id="hd3">What would you like to see improved? (check all that apply)</label> <br><br>
+                <div class="cont2">
+                    <input type="checkbox" name="fnt" class="mnt"><label for="fnt">Front-end Projects</label><br><br>
+                    <input type="checkbox" name="bcp" class="mnt"><label for="fnt">Back-end Projects</label><br><br>
+                    <input type="checkbox" name="dv" class="mnt"><label for="fnt">Data Visualisation</label><br><br>
+                    <input type="checkbox" name="chl" class="mnt"><label for="fnt">Challenges</label><br><br>
+                    <input type="checkbox" name="osc" class="mnt"><label for="fnt">Open Source Community</label><br><br>
+                    <input type="checkbox" name="ghr" class="mnt"><label for="fnt">Gitter help rooms</label><br><br>
+                    <input type="checkbox" name="vi" class="mnt"><label for="fnt">videos</label><br><br>
+                    <input type="checkbox" name="cm" class="mnt"><label for="fnt">City Meetups</label><br><br>
+                    <input type="checkbox" name="Wi" class="mnt"><label for="fnt">Wiki</label><br><br>
+                    <input type="checkbox" name="fo" class="mnt"><label for="fnt">Forum</label><br><br>
+                    <input type="checkbox" name="ads" class="mnt"><label for="fnt">Additional Courses</label><br><br>
+                    <label id="hd4">Any comments or suggestions?</label> <br><br>
+                    <textarea placeholder="Enter your comments here.."></textarea> <br>
+                    <button><h3>Submit</h3></button>
+                </div>
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>
